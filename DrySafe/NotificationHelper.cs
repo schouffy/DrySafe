@@ -2,6 +2,7 @@
 using PushbulletSharp.Models.Requests;
 using PushbulletSharp.Models.Responses;
 using System;
+using System.Linq;
 
 namespace DrySafe
 {
@@ -18,7 +19,7 @@ namespace DrySafe
       //If you don't know your device_iden, you can always query your devices
       var devices = client.CurrentUsersDevices();
 
-      foreach (var device in devices.Devices)
+      foreach (var device in devices.Devices.Where(d => d.Fingerprint != null))
       {
         if (device != null)
         {
