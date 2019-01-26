@@ -262,3 +262,4 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+DrySafe/Properties/PublishProfiles/DrySafe - Web Deploy\.pubxml

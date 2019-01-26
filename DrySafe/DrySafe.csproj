@@ -3,6 +3,7 @@
     <TargetFramework>net461</TargetFramework>
   </PropertyGroup>
   <ItemGroup>    
+    <PackageReference Include="Mailjet.Api" Version="1.2.2" />    
     <PackageReference Include="Microsoft.NET.Sdk.Functions" Version="1.0.2" />    
     <PackageReference Include="PushBulletSharp" Version="3.1.0" />
   </ItemGroup>
