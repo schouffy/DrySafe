@@ -262,14 +262,3 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-DrySafe/Properties/PublishProfiles/DrySafe - Web Deploy\.pubxml
-
-DrySafe/Properties/PublishProfiles/DrySafe - Zip Deploy.pubxml
-
-DrySafe/Properties/serviceDependencies.DrySafe - Zip Deploy.json
-
-DrySafe/Properties/serviceDependencies.json
-
-DrySafe/Properties/serviceDependencies.local.json
-
-DrySafe/Properties/ServiceDependencies/DrySafe - Zip Deploy/storage1.arm.json

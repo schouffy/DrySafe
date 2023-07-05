@@ -1,4 +1,5 @@
-﻿using PushbulletSharp;
+﻿using Microsoft.Extensions.Logging;
+using PushbulletSharp;
 using PushbulletSharp.Models.Requests;
 using PushbulletSharp.Models.Responses;
 using System;
@@ -12,7 +13,7 @@ namespace DrySafe
 
     public static void SendNotification(String notification)
     {
-      DrySafe.Logger.Info($"Send notification : {notification}");
+      DrySafe.Logger.Log(LogLevel.Trace, $"Send notification : {notification}");
 
       PushbulletClient client = new PushbulletClient(_apiKey);
 
