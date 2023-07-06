@@ -1,0 +1,17 @@
+{
+    "IsEncrypted": false,
+    "Values": {
+        "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+        "FUNCTIONS_WORKER_RUNTIME": "dotnet",
+
+        "MeteoFranceUrl": "https://webservice.meteofrance.com/rain?lat=44.808035&lon=-0.590296&token=**TOKEN**    see token here: https://github.com/hacf-fr/meteofrance-api/blob/688078e22f64dc0724916fec2ecc55adf0ca19d3/src/meteofrance_api/const.py",
+
+        "PushBulletApiKey": "Info here: https://docs.pushbullet.com/#authentication",
+
+        "MailJetApiKey": "Info here: https://dev.mailjet.com/email/guides/getting-started/",
+        "MailJetApiSecret": "Info here: https://dev.mailjet.com/email/guides/getting-started/",
+
+        "ErrorMailSenderAddress": "your email",
+        "ErrorEmailRecipient": "your email"
+    }
+}
