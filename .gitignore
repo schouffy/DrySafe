@@ -273,3 +273,5 @@ DrySafe/Properties/serviceDependencies.json
 DrySafe/Properties/serviceDependencies.local.json
 
 DrySafe/Properties/ServiceDependencies/DrySafe - Zip Deploy/storage1.arm.json
+
+DrySafe/Properties/ServiceDependencies/DrySafe - Zip Deploy/profile.arm.json
