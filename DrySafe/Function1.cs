@@ -26,7 +26,7 @@ namespace DrySafe
                 var rainStatus = await WeatherHelper.GetRainInNextHour();
                 if (rainStatus.WillItRain)
                 {
-                    Logger.Log(LogLevel.Information, $"Rain is planned ! Sending notification.");
+                    Logger.Log(LogLevel.Information, $"Rain is planned! Sending notification.");
                     NotificationHelper.SendNotification(rainStatus.GetDescription());
                 }
                 else
